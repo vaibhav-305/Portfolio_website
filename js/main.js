@@ -95,6 +95,7 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
 var el = document.getElementById('preloader');
 function removeLoader(){
     setTimeout(function() {
@@ -102,6 +103,9 @@ function removeLoader(){
         el.style.WebkitTransition = 'opacity 1s';
         el.style.opacity = '0';
       }, 300);
+      setTimeout(function() {
+        el.remove();
+      }, 600);
 }
 
 
