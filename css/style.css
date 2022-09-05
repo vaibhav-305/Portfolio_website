@@ -21,7 +21,6 @@ h6 {
     width: 100%;
     position: fixed;
     z-index: 10000;
-    transition: opacity 1s;
 }
 
 body.dark {
@@ -140,7 +139,7 @@ body.dark {
 }
 
 .title-box {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     margin-top: 4rem
 }
 

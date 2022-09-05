@@ -95,10 +95,13 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-var preloader = document.getElementById('preloader');
+var el = document.getElementById('preloader');
 function removeLoader(){
-    preloader.style.opacity=0;
-    preloader.remove();
+    setTimeout(function() {
+        // 1s - time of the animation duration
+        el.style.WebkitTransition = 'opacity 1s';
+        el.style.opacity = '0';
+      }, 300);
 }
 
 
