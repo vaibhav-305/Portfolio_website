@@ -14,7 +14,7 @@ h6 {
 }
 
 /*Loader*/
-#preloader{
+#preloader {
     background: #000 url('../img/preloader.gif') no-repeat center;
     background-size: 30%;
     height: 100vh;
@@ -25,7 +25,7 @@ h6 {
 
 body.dark {
     background-color: #1F2937;
-} 
+}
 
 .box-shadow,
 .service-box {
@@ -51,14 +51,14 @@ body.dark {
     background: #ffc600;
 }
 
-.slideshow { 
-    position: relative; 
+.slideshow {
+    position: relative;
     width: 100%;
     height: 100%;
 }
 
-.slideshow > div { 
-    position: absolute; 
+.slideshow>div {
+    position: absolute;
 }
 
 .box-shadow-a,
@@ -91,22 +91,22 @@ body.dark {
 .checkbox {
     opacity: 0;
     position: absolute;
-  }
-  
-  .label {
+}
+
+.label {
     width: 50px;
     height: 26px;
-    background-color:#111;
+    background-color: #111;
     display: flex;
-    border-radius:50px;
+    border-radius: 50px;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
     position: relative;
     transform: scale(1.5);
-  }
-  
-  .ball {
+}
+
+.ball {
     width: 20px;
     height: 20px;
     background-color: white;
@@ -115,20 +115,20 @@ body.dark {
     left: 2px;
     border-radius: 50%;
     transition: transform 0.2s linear;
-  }
-  
-  /*  target the elemenent after the label*/
-  .checkbox:checked + .label .ball{
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked+.label .ball {
     transform: translateX(24px);
-  }
-  
-  .color-white {
+}
+
+.color-white {
     color: white;
-  }
-  
-  .color-yellow {
+}
+
+.color-yellow {
     color: yellow;
-  }
+}
 
 /* Title Designs */
 
@@ -144,7 +144,7 @@ body.dark {
 }
 
 .title-a {
-    
+
     font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -152,7 +152,7 @@ body.dark {
 }
 
 .p-title {
-    font-family: 'Alegreya','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Alegreya', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
     color: darkslateblue;
     font-weight: bold;
@@ -202,13 +202,14 @@ body.dark {
 
 
 /* Navigation Bar */
- .light-color{
+.light-color {
     background-color: white;
 }
 
-.dark-navbar{
+.dark-navbar {
     background-color: #111827;
 }
+
 .contact-icon {
     margin-top: 0px;
     margin-right: 20px;
@@ -322,7 +323,7 @@ body.dark {
     color: rgb(235, 110, 8);
 }
 
-.navbar-b.navbar-reduce .navbar-toggler span{
+.navbar-b.navbar-reduce .navbar-toggler span {
     background-color: #1B1B1B;
 }
 
@@ -341,44 +342,48 @@ body.dark {
     outline: 0;
 }
 
-.navbar-toggler span {	
-    display: block;	
-    background-color: #fff;	
-    height: 3px;	
-    width: 25px;	
-    margin-top: 4px;	
-    margin-bottom: 4px;	
-    -webkit-transform: rotate(0deg);	
-    transform: rotate(0deg);	
-    left: 0;	
-    opacity: 1;	
-}	
-.navbar-toggler span:nth-child(1),	
-.navbar-toggler span:nth-child(3) {	
-    transition: -webkit-transform .35s ease-in-out;	
-    transition: transform .35s ease-in-out;	
-    transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out;	
-}	
-.navbar-toggler:not(.collapsed) span:nth-child(1) {	
-    position: absolute;	
-    left: 12px;	
-    top: 10px;	
-    -webkit-transform: rotate(135deg);	
-    transform: rotate(135deg);	
-    opacity: 0.9;	
-}	
-.navbar-toggler:not(.collapsed) span:nth-child(2) {	
-    height: 12px;	
-    visibility: hidden;	
-    background-color: transparent;	
-}	
-.navbar-toggler:not(.collapsed) span:nth-child(3) {	
-    position: absolute;	
-    left: 12px;	
-    top: 10px;	
-    -webkit-transform: rotate(-135deg);	
-    transform: rotate(-135deg);	
-    opacity: 0.9;	
+.navbar-toggler span {
+    display: block;
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+    transition: -webkit-transform .35s ease-in-out;
+    transition: transform .35s ease-in-out;
+    transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
 }
 
 .navbar-skill {
@@ -435,12 +440,10 @@ body.dark {
     margin-bottom: 2rem;
 }
 
-.about-mf {
-    
-}
+.about-mf {}
 
 .div-title {
-    font-family: 'Alegreya','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Alegreya', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.5rem;
     color: darkslateblue;
     margin-bottom: 2rem;
@@ -449,35 +452,39 @@ body.dark {
 }
 
 .fancy-title {
-    color:#fff;
+    color: #fff;
     margin-bottom: 4rem;
     margin-top: 4rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.reveal{
+.reveal {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
     transition: 2s all ease;
 }
-.reveal.active{
+
+.reveal.active {
     transform: translateY(0);
     opacity: 1;
 }
 
 
 /* SKILLS Page*/
-.dark-trans-bg{
+.dark-trans-bg {
     background-color: rgba(0, 0, 0, 0.5);
 }
-#skills h1{
+
+#skills h1 {
     color: white;
 }
-#skills h3{
+
+#skills h3 {
     color: white;
 }
-.skill{
+
+.skill {
     color: white;
     font-size: 2rem;
 }
@@ -527,9 +534,11 @@ body.dark {
 .service-box .s-description {
     color: #4e4e4e;
 }
+
 .service-box .s-description-bg {
     color: #fff;
 }
+
 .service-box .s-description-intro {
     color: #4e4e4e;
     font-size: 1.5rem;
@@ -547,16 +556,15 @@ body.dark {
     font-size: 1.1rem;
 }
 
-.p-link {
+.p-link {}
 
-}
 /* The actual timeline (the vertical ruler) */
 .main-timeline {
     position: relative;
-  }
-  
-  /* The actual timeline (the vertical ruler) */
-  .main-timeline::after {
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline::after {
     content: "";
     position: absolute;
     width: 6px;
@@ -565,17 +573,17 @@ body.dark {
     bottom: 0;
     left: 50%;
     margin-left: -3px;
-  }
-  
-  /* Container around content */
-  .timeline {
+}
+
+/* Container around content */
+.timeline {
     position: relative;
     background-color: inherit;
     width: 50%;
-  }
-  
-  /* The circles on the timeline */
-  .timeline::after {
+}
+
+/* The circles on the timeline */
+.timeline::after {
     content: "";
     position: absolute;
     width: 25px;
@@ -586,22 +594,22 @@ body.dark {
     top: 15px;
     border-radius: 50%;
     z-index: 1;
-  }
-  
-  /* Place the container to the left */
-  .left {
+}
+
+/* Place the container to the left */
+.left {
     padding: 0px 40px 20px 0px;
     left: 0;
-  }
-  
-  /* Place the container to the right */
-  .right {
+}
+
+/* Place the container to the right */
+.right {
     padding: 0px 0px 20px 40px;
     left: 50%;
-  }
-  
-  /* Add arrows to the left container (pointing right) */
-  .left::before {
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
     content: " ";
     position: absolute;
     top: 18px;
@@ -610,10 +618,10 @@ body.dark {
     border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
-  }
-  
-  /* Add arrows to the right container (pointing left) */
-  .right::before {
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
     content: " ";
     position: absolute;
     top: 18px;
@@ -622,51 +630,52 @@ body.dark {
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
-  }
-  
-  /* Fix the circle for containers on the right side */
-  .right::after {
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
     left: -12px;
-  }
-  
-  /* Media queries - Responsive timeline on screens less than 600px wide */
-  @media screen and (max-width: 600px) {
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
     /* Place the timelime to the left */
     .main-timeline::after {
-      left: 31px;
+        left: 31px;
     }
-  
+
     /* Full-width containers */
     .timeline {
-      width: 100%;
-      padding-left: 70px;
-      padding-right: 25px;
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
     }
-  
+
     /* Make sure that all arrows are pointing leftwards */
     .timeline::before {
-      left: 60px;
-      border: medium solid white;
-      border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
     }
-  
+
     /* Make sure all circles are at the same spot */
     .left::after,
     .right::after {
-      left: 18px;
+        left: 18px;
     }
-  
+
     .left::before {
-      right: auto;
+        right: auto;
     }
-  
+
     /* Make all right containers behave like the left ones */
     .right {
-      left: 0%;
+        left: 0%;
     }
-  }
-  
+}
+
 /*Contact*/
 .contact-container {
     padding: 100px 50px;
@@ -675,61 +684,78 @@ body.dark {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  @media screen and (max-width: 560px) {
+}
+
+@media screen and (max-width: 560px) {
     .contact-container {
-      padding: 100px 20px 20px 20px;
+        padding: 100px 20px 20px 20px;
     }
-  }
-  .contact-container h1 {
+
+    .s-description-intro {
+        font-size: 1.3rem !important;
+    }
+}
+
+.contact-container h1 {
     font-size: 48px;
     font-family: "Montserrat", sans-serif;
     color: #d84400;
-  }
-  @media screen and (max-width: 460px) {
-    .contact-container h1 {
-      font-size: 36px;
-    }
-  }
-  .contact-container p {
+}
+
+.contact-container p {
     font-family: "Roboto", sans-serif;
     color: #616161;
     font-size: 24px;
     padding-bottom: 20px;
-  }
-  @media screen and (max-width: 460px) {
+}
+
+@media screen and (max-width: 460px) {
     .contact-container p {
-      font-size: 18px;
-      padding-bottom: 15px;
+        font-size: 18px;
+        padding-bottom: 15px;
     }
-  }
-  .contact-container .social {
+    .contact-container h1 {
+        font-size: 36px;
+    }
+
+    .s-description-intro {
+        font-size: 1.2rem !important;
+    }
+}
+
+.contact-container .social {
     padding-bottom: 10px;
-  }
-  .contact-container .social a i {
+}
+
+.contact-container .social a i {
     padding: 15px;
     font-size: 42px;
     color: #d84400;
-  }
-  .contact-container .social a i:hover {
+}
+
+.contact-container .social a i:hover {
     color: #616161;
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: 50%;
-  }
-  .contact-container .contact {
+}
+
+.contact-container .contact {
     font-family: "Roboto", sans-serif;
     color: #616161;
-  }
-  .contact-container .contact h3 {
+}
+
+.contact-container .contact h3 {
     font-weight: lighter;
-  }
-  .contact-container .image {
+}
+
+.contact-container .image {
     text-align: right;
-  }
-  .contact-container .image img {
+}
+
+.contact-container .image img {
     display: inline-block;
     width: 300px;
-  }
+}
 
 
 /* Footer */
@@ -743,4 +769,3 @@ body.dark {
 .footer-text {
     color: #FFFFFF;
 }
-
